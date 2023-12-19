@@ -2,8 +2,14 @@
 
 Note: may not be in a currently working state as the code needed to be obfuscated
 
-## Usage
+## Info
+- Java 11
+- Rest Assured
+- TestNG
+- Jenkins
+- Docker
 
-- Build the docker image
-- Push the docker into a docker repository somewhere
-- Run the Jenkins job
+## Usage
+ - Build the docker image
+ - Push the docker into a docker repository somewhere
+ - Run the Jenkins job
