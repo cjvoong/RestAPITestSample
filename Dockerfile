@@ -7,7 +7,7 @@ RUN mkdir -p /build
 RUN mkdir -p /build/.m2/repository
 WORKDIR /build
 RUN apt-get update && apt-get install -y git
-RUN git clone --depth 1 --branch $BRANCH https://$USERNAME:$PASSWORD@stash.skybet.net/scm/gstpbs/isp-be-integration-test.git
+RUN git clone --depth 1 --branch $BRANCH https://$USERNAME:$PASSWORD@SOMEURL/isp-be-integration-test.git
 
 WORKDIR /build/isp-be-integration-test
 COPY ./ ./
