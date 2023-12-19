@@ -5,7 +5,7 @@ Note: may not be in a currently working state as the code needed to be obfuscate
 ## Info
 - Java 11
 - Rest Assured
-- TestNG
+- Junit
 - Jenkins
 - Docker
 
