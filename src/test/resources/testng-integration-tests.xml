@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Integration test" verbose="1">
+	<test name="AllDbPublishTests">
+		<groups>
+			<run>
+				<include name="dbpublish"/>
+			</run>
+		</groups>
+		<packages>
+			<package name="com.isp.platform.sb.dbpublish.integration.tests"/>
+		</packages>
+	</test>
+</suite>
